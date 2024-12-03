@@ -1,8 +1,13 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 574
+    size: 579
     values:
+      - SpectaclesInteractionKit
+      - SpectaclesInteractionKit JS/Assets
+      - SpectaclesInteractionKit JS/Components/Helpers
+      - SpectaclesInteractionKit JS/Utils/aabb.js
+      - SpectaclesInteractionKit JS/package.native
       - SpectaclesInteractionKit/Assets
       - SpectaclesInteractionKit/Assets/Audio
       - SpectaclesInteractionKit/Assets/Audio/HoverAudioTrack.wav

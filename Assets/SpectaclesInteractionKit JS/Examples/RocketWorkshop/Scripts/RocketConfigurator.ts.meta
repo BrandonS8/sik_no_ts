@@ -1,0 +1,40 @@
+- !<AssetImportMetadata/4730cfe3-143b-406f-b341-a8272844ca03>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 2cce9668-0db7-4f2b-9a8c-db7c8e36794b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 2cce9668-0db7-4f2b-9a8c-db7c8e36794b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 351e1e67-781c-4d7e-9795-68c0a7920dd5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/3329d3de-3d6a-477e-b91d-2bcc7d108459>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/351e1e67-781c-4d7e-9795-68c0a7920dd5>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    allRocketParts: false
+    rocket: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - allRocketParts: !<reference.ObjectPrefab[]>
+        []
+      rocket: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject rocket
+    - "// @input Asset.ObjectPrefab[] allRocketParts"

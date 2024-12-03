@@ -1,0 +1,83 @@
+- !<Material/6e188279-5172-495a-9955-f04b53740c90>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 0f11a5e7-23e7-42a4-b351-7f08afb787ab
+- !<PassInfo/0f11a5e7-23e7-42a4-b351-7f08afb787ab>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_29_DROPLIST_ITEM 0
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_Center_N003:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Center_N025:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Import_N013:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    Port_Rotation_N003:
+      typeIdx: 1
+      value: 90.000000
+    Port_Scale_N025:
+      typeIdx: 3
+      value: {x: 5.000000, y: 5.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    PreviewNodeID:
+      typeIdx: 0
+      value: 0
+    Tweak_N2:
+      typeIdx: 5
+      value: {x: 0.290196, y: 0.560784, z: 1.000000, w: 1.000000}
+    Tweak_N6:
+      typeIdx: 9
+      value:
+        id: c37b3628-c954-4ccc-b28f-152de08cd0eb
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    Tweak_N8:
+      typeIdx: 5
+      value: {x: 0.290196, y: 0.560784, z: 1.000000, w: 1.000000}
+    Tweak_N9:
+      typeIdx: 5
+      value: {x: 0.290196, y: 0.560784, z: 1.000000, w: 1.000000}
+    colorRatio:
+      typeIdx: 1
+      value: 0.000000
+    planet_refl_map:
+      typeIdx: 9
+      value:
+        id: 4be3eda0-f213-4505-a1c0-b7219f10f63b
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    reflIntensity:
+      typeIdx: 1
+      value: 0.550000
+  Pass: !<reference> 70dce52d-6aee-487e-80e0-1245174aac03
+  RTCaster: false
+  RTReceiver: false

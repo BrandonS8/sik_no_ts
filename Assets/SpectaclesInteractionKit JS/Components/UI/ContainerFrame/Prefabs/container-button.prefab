@@ -1,0 +1,85 @@
+- !<ObjectPrefab/50d95389-315b-4c83-a59a-380598a02580>
+  PackagePath: ""
+  objects:
+    - !<own> 87b2c928-4d59-4486-9625-e88b2afae0e4
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/698cb45e-5bba-42b2-b89d-1d07bb3e87d6>
+  PrefabRemaps:
+    []
+  Name: PinchButton
+  Enabled: true
+  ScriptAsset: !<reference> a54c5722-d3fb-4aa5-97ff-f7425978bc59
+  ScriptInputsDefault:
+    editEventCallbacks: true
+    customFunctionForOnButtonPinched: true
+    onButtonPinchedFunctionNames: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      editEventCallbacks: false
+      customFunctionForOnButtonPinched: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      onButtonPinchedFunctionNames: !<string[]>
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/7491eefa-360c-4315-b70e-01e32e257a22>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    enableInstantDrag: true
+    allowMultipleInteractors: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      enableInstantDrag: false
+      allowMultipleInteractors: true
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/82c70366-b411-4470-8984-13692ed4d5de>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 066c512a-7c65-41d2-9a57-3be3fd7766f3
+  Mesh: !<reference> 1fb1e634-eb2b-4cc4-ba8b-18416bbcb455
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: true
+  BlendShapes:
+    Pinch: 0.000000
+    Z depth: 1.000000
+- !<SceneObject/87b2c928-4d59-4486-9625-e88b2afae0e4>
+  PrefabRemaps:
+    []
+  Name: container-button
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.935684, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 82c70366-b411-4470-8984-13692ed4d5de
+    - !<own> 7491eefa-360c-4315-b70e-01e32e257a22
+    - !<own> 698cb45e-5bba-42b2-b89d-1d07bb3e87d6

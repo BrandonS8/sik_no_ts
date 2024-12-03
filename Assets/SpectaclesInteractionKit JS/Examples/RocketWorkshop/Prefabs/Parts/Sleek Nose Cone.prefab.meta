@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/f7e0bf38-174c-41c2-9251-dfb221b66a32>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 2b39ffbc-2b72-49e8-9e75-80173c9777eb
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 2b39ffbc-2b72-49e8-9e75-80173c9777eb
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 7c4f6fc3-8689-485b-84f9-5304a46abfc7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/920703ae-8410-4246-a685-e0e6e7172df0>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/4d47cfa2-da23-4399-9a81-45f93bfeca53>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f02f7211-3e17-4e72-8171-8ee7ebabff93
+  Mesh: !<reference> f45a792d-850b-43f1-8a6e-e12d3430ee85
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/7c4f6fc3-8689-485b-84f9-5304a46abfc7>
+  SourceRemaps:
+    - 63ee6b51-39f7-41ed-898d-40b4cbb65ba6: d9cfe200-d692-4d50-ad75-a91dd985fe4a
+    - 9dffc408-c85c-4ae9-863e-54ec0786a5a6: 4d47cfa2-da23-4399-9a81-45f93bfeca53
+  SourceState: !<own> f750e28f-3b96-4c1b-8885-48599dbf550c
+- !<SceneObject/d9cfe200-d692-4d50-ad75-a91dd985fe4a>
+  PrefabRemaps:
+    []
+  Name: Sleek Nose Cone
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 21.029972, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4d47cfa2-da23-4399-9a81-45f93bfeca53
+- !<ObjectPrefab/f750e28f-3b96-4c1b-8885-48599dbf550c>
+  PackagePath: ""
+  objects:
+    - !<own> d9cfe200-d692-4d50-ad75-a91dd985fe4a
+  LazyLoading: false
+  RetainAssets: true

@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/1cabfc0d-4840-4997-afcd-cce0d60e7ab5>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 86cdff99-d970-40c4-888a-b8287416fa82
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 86cdff99-d970-40c4-888a-b8287416fa82
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 44f31aa5-3a72-4b8c-aec8-8928e178ae4c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/09ef417a-9d74-4824-a946-1e1724c128d3>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/44f31aa5-3a72-4b8c-aec8-8928e178ae4c>
+  SourceRemaps:
+    - 553c5e13-f6a6-4224-923d-ec5ead4ef344: acacf3f4-c90f-4c8d-8679-7ce8cf31bda6
+    - 8cfc1651-9805-41da-a031-82b9655b410c: d98c1f16-b83e-4158-9966-d50abbcec24a
+  SourceState: !<own> a2eab05b-9c35-4529-9572-fb8985e535e4
+- !<ObjectPrefab/a2eab05b-9c35-4529-9572-fb8985e535e4>
+  PackagePath: ""
+  objects:
+    - !<own> d98c1f16-b83e-4158-9966-d50abbcec24a
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/acacf3f4-c90f-4c8d-8679-7ce8cf31bda6>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 339249de-afe5-4c20-a6a9-ee7422c35504
+  Mesh: !<reference> bd56aa76-661e-428e-96fc-090331b2a39c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d98c1f16-b83e-4158-9966-d50abbcec24a>
+  PrefabRemaps:
+    []
+  Name: Sleek Body Tube
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 11.006973, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> acacf3f4-c90f-4c8d-8679-7ce8cf31bda6

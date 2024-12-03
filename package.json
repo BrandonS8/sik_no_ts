@@ -1,0 +1,15 @@
+{
+  "name": "sik_no_ts_000",
+  "version": "1.0.0",
+  "description": "Converting Spectacles Interaction Kit in Lens Studio to be vanilla Javascript. Typescript is just not fun for me in the context of Lens Studio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

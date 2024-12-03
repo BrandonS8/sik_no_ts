@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/a60d0c70-bac0-45a1-b168-86b8dd236a13>
+  ImporterSettings: !<AssetImporterSettings/105fc5f5-2dd3-4649-b1c9-18e09ea6c734>
+    {}
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f23c239d-1375-4584-874a-7f135f62d5a3
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f23c239d-1375-4584-874a-7f135f62d5a3
+  PackageType: NotAPackage
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7ab4b3b9-cc4f-492e-8afe-01dbb29e92b5
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7ab4b3b9-cc4f-492e-8afe-01dbb29e92b5>
+  Icon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    defaultColor: false
+    disabledColor: false
+    hoverColor: false
+    meshVisuals: false
+    pinchedColor: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - meshVisuals: !<reference.RenderMeshVisual[]>
+        []
+      defaultColor: !<Vec4> {x: 0.280000, y: 0.280000, z: 0.280000, w: 1.000000}
+      hoverColor: !<Vec4> {x: 0.280000, y: 0.280000, z: 0.280000, w: 1.000000}
+      pinchedColor: !<Vec4> {x: 0.460000, y: 0.460000, z: 0.460000, w: 1.000000}
+      disabledColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input vec4 defaultColor = "{0.28, 0.28, 0.28, 1}" {"widget":"color"}'
+    - '// @input vec4 hoverColor = "{0.28, 0.28, 0.28, 1}" {"widget":"color"}'
+    - '// @input vec4 pinchedColor = "{0.46, 0.46, 0.46, 1}" {"widget":"color"}'
+    - '// @input vec4 disabledColor = "{1, 1, 1, 0}" {"widget":"color"}'
+    - '// @input Component.RenderMeshVisual[] meshVisuals {"hint":"The meshes which will have their baseColor changed on pinch/hover events"}'
+  SvgIcon: ""

@@ -1,0 +1,83 @@
+- !<ObjectPrefab/449ffc8a-4676-4815-a8f2-12be5ab4ad7a>
+  PackagePath: ""
+  objects:
+    - !<own> 34cf3a2a-629f-4586-97ac-dcda28be014b
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/34cf3a2a-629f-4586-97ac-dcda28be014b>
+  PrefabRemaps:
+    []
+  Name: Space Age Body Tube
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -1.228443, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8880102e-14a2-42e2-89f4-74cd803f4235
+    - !<own> 7d3baae5-144b-4932-9881-f0a1c259c87a
+    - !<own> a3ddc1a6-da44-4c82-b10f-0d976b30e79d
+- !<RenderMeshVisual/7d3baae5-144b-4932-9881-f0a1c259c87a>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 831a51f1-c49a-4e90-bddf-6769e5cef0f0
+  Mesh: !<reference> 1bd18163-56b6-4d4e-a5d7-0b47a1fc25af
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/8880102e-14a2-42e2-89f4-74cd803f4235>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a1127952-2b90-417a-a08b-b9aa6d8709b1
+  Mesh: !<reference> 9f3f87d3-ce71-486e-98fe-232f2b9b3ca3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/a3ddc1a6-da44-4c82-b10f-0d976b30e79d>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7a623639-7e67-444b-8d27-21a3c13c6d91
+  Mesh: !<reference> e90a9324-daec-4d22-8d9b-c7544e21f716
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

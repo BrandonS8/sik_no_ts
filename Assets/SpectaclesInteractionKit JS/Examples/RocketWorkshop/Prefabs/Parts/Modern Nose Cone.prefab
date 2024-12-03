@@ -1,0 +1,83 @@
+- !<ObjectPrefab/85f9c60e-dd6c-40d7-9140-f4a370c3753a>
+  PackagePath: ""
+  objects:
+    - !<own> 38ecc925-a3f5-42e9-81bf-1e5ffed85594
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/0b5b485f-4f17-459e-b2e8-3af843ffddaa>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0c748c8a-3234-41d8-9f9c-952180de31f3
+  Mesh: !<reference> b876b982-b6f1-441a-ac4b-4b76c2404767
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/0c0acc22-0480-4e2c-bacb-9013bba9bb5f>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cb298395-289e-4775-9b74-0ccc31353677
+  Mesh: !<reference> fc564c88-f677-4c3c-8035-be070477f2dd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/2a153889-7030-4462-aecd-9451e8e212c5>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a1127952-2b90-417a-a08b-b9aa6d8709b1
+  Mesh: !<reference> ee5fe3a4-386b-4204-889d-dbf6bf835c8a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/38ecc925-a3f5-42e9-81bf-1e5ffed85594>
+  PrefabRemaps:
+    []
+  Name: Modern Nose Cone
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 8.794556, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0c0acc22-0480-4e2c-bacb-9013bba9bb5f
+    - !<own> 0b5b485f-4f17-459e-b2e8-3af843ffddaa
+    - !<own> 2a153889-7030-4462-aecd-9451e8e212c5

@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/125b0a4e-906b-4bea-ba1c-094ff8931f42>
+  ImporterSettings: !<AssetImporterSettings/93cc8757-0861-4ce3-a911-5797d5a5a653>
+    {}
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 58327d3e-7fe5-4967-ac7a-b6ff4b50f311
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 58327d3e-7fe5-4967-ac7a-b6ff4b50f311
+  PackageType: NotAPackage
+  AssetDataMap:
+    TypeScriptAsset: !<own> a9620a69-a2f0-4791-9222-9b64b90ebf95
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a9620a69-a2f0-4791-9222-9b64b90ebf95>
+  Icon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    _axisBufferDegrees: false
+    _axisEasing: false
+    _xAxisEnabled: false
+    _yAxisEnabled: false
+    _zAxisEnabled: false
+    duration: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - duration: 0.033000
+      _xAxisEnabled: false
+      _yAxisEnabled: true
+      _zAxisEnabled: false
+      _axisBufferDegrees: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      _axisEasing: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"group_start", "label":"Billboard"}'
+    - // @input bool _xAxisEnabled = false
+    - // @input bool _yAxisEnabled = true
+    - // @input bool _zAxisEnabled = false
+    - '// @input vec3 _axisBufferDegrees {"hint":"How big the angle must be to start rotating about that axis"}'
+    - '// @input vec3 _axisEasing {"hint":"How fast the target should rotate to follow camera, instant follow = 1, delay follow = 0.1"}'
+    - '// @input float duration = 0.033 {"hint":"Decrecated. Please use the property Axis Easing to adjust the rotation speed"}'
+    - '// @ui {"widget":"group_end"}'
+  SvgIcon: ""
