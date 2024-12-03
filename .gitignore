@@ -21,3 +21,4 @@ tsconfig.json
 # End Shipped by Lens Studio
 node_modules/
 !Cache/TypeScript/lib/LensifyTS/
+!Cache/TypeScript/lib/LensifyTS/**
