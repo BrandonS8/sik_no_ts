@@ -1,13 +1,6 @@
-# Shipped by Lens Studio
-Cache/**
-PluginsUserPreferences/**
-Support/**
-BackUp/**
-.vscode/**
-jsconfig.json
-tsconfig.json
-.DS_Store
-*.lock
+!Cache/TypeScript/lib/LensifyTS/
+!Cache/TypeScript/lib/LensifyTS/**
+
 # Shipped by Lens Studio
 Cache/**
 PluginsUserPreferences/**
@@ -20,5 +13,3 @@ tsconfig.json
 *.lock
 # End Shipped by Lens Studio
 node_modules/
-!Cache/TypeScript/lib/LensifyTS/
-!Cache/TypeScript/lib/LensifyTS/**
