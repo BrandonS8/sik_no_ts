@@ -20,3 +20,4 @@ tsconfig.json
 *.lock
 # End Shipped by Lens Studio
 node_modules/
+!Cache/TypeScript/lib/LensifyTS
