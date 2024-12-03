@@ -1,0 +1,5 @@
+# exclude everything
+Cache/*
+
+# exception to the rule
+!Cache/folder.lock
